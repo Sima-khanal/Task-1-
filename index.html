@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Search Filter</title>
+  <script defer src="app.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-100">
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="navbar-container">
+      <a href="#" class="logo">Tech Company</a>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <div class="search-container">
+          <input type="text" id="searchInput" placeholder="Search items..." class="search-input"/>
+          <button class="search-button">
+            <img src="https://i.pinimg.com/236x/fa/0e/7b/fa0e7b992eff03c576727e95c746005c.jpg" alt="Search Icon" class="search-icon"/>
+          </button>
+        </div>
+      </ul>
+      <button class="hamburger-button">
+        <!-- Hamburger Icon for mobile -->
+        <svg xmlns="http://www.w3.org/2000/svg" class="hamburger-icon" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+        </svg>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero-section">
+    <div class="hero-container">
+      <h1 class="hero-title">
+        Empower Your Business with Innovative Tech Solutions
+      </h1>
+      <p class="hero-description">
+        We deliver cutting-edge technology solutions that help your business grow and succeed.
+      </p>
+      <a href="#contact" class="cta-button">Get Started</a>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="features-section">
+    <div class="features-container">
+      <h2 class="features-title">Our Features</h2>
+      <div class="features-grid">
+        <!-- Feature items will be dynamically added here -->
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about-section">
+    <div class="about-container">
+      <h2 class="about-title">About Us</h2>
+      <p class="about-description">
+        We are a team of passionate technologists dedicated to creating impactful solutions for businesses across industries. With expertise in artificial intelligence, cloud computing, and cybersecurity, we help companies embrace the future of technology.
+      </p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer" id="contact">
+    <div class="footer-container">
+      <p>&copy; 2024 Tech Company. All rights reserved.</p>
+      <p class="footer-contact">Contact us at seemakhanal608@gmail.com</p>
+    </div>
+  </footer>
+
+</body>
+</html>
